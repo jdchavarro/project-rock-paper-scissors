@@ -1,0 +1,53 @@
+:root {
+  --light: #4D9DE0;
+  --dark: #7768AE;
+  --primary: #E1BC29;
+  --secondary: #E15554;
+  --tertiary: #3BB273;
+  font-size: 62.5%;
+  background-color: var(--light);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.game-title {
+    font-size: 4rem;
+    color: var(--primary);
+}
+
+.game-description {
+    font-size: 2rem;
+}
+
+.gamerSelection {
+    margin-top: 2rem;
+}
+
+.gamerSelection p {
+    font-size: 2rem;
+}
+
+.options {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.results img{
+    cursor: default;
+}
+
+.results p {
+    font-size: 2rem;
+}
+
+.hidden {
+    display: none;
+}

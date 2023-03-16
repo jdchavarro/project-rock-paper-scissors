@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="index.css" />
+
+    <main>
+      <h1 class="game-title">ROCK PAPER SCISSORS</h1>
+      <p class="game-description">
+        Bienvenido al clasico juego Piedra Papel o Tijera
+      </p>
+      <section class="gamerSelection">
+        <p>Elije Sabiamente tu arma</p>
+
+        <img src="rock.jpg" class="options" alt="rock" onclick="jugar(0)" />
+
+        <img src="paper.jpg" class="options" alt="paper" onclick="jugar(1)" />
+        <img
+          src="scissor.jpg"
+          class="options"
+          alt="scissor"
+          onclick="jugar(2)"
+        />
+      </section>
+
+      <section class="results hidden" id="results">
+        <p>Resultados de la contienda</p>
+        <span id="gamerOption">
+          <img src="paper.jpg" class="options" alt="paper" />
+        </span>
+
+        <span id="computerOption">
+          <img src="scissor.jpg" class="options" alt="scissor" />
+        </span>
+
+        <p id="winner"></p>
+
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
